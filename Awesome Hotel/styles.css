@@ -1,0 +1,53 @@
+/* stylesheet */
+body {
+	font-family:Montserrat;
+}
+
+/* mainpage styling */
+.page-top-item {
+  height: 500px;
+	background-image: url("images/background.png");
+	background-color: black;
+	background-size: cover;
+	color: #fff;
+}
+#main1 {
+	padding-top: 100px;
+	padding-left:150px;
+	padding-bottom: 50px;
+	font-size: 60px;
+}
+.btnstyle {
+	margin-left:150px;
+}
+.ptext {
+	
+}
+#explorebtn {
+	background: #FF3333;
+}
+
+/* text before map */
+#first {
+	font-size: 35px;
+}
+#second {
+	color:#FF3333;
+	font-size: 30px;
+}
+/* map */
+.map-container{
+overflow:hidden;
+position:relative;
+height:350px;
+margin-bottom: 20px;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:350px;
+width:100%;
+position:absolute;
+}
+
+/* review style */
